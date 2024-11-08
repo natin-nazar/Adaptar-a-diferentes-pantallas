@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+@media screen and (min-width: 800px) {
+  .foto-alumno {
+    width: 20%;
+  }
+
+  .nombre-alumno {
+    width: 60%;
+    text-align: center;
+    font-size: 2em;
+  }
+
+  .icono-alumno {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .foto-alumno {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+
+  .nombre-alumno {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+
+  .icono-alumno {
+    width: 100%;
+    border: 2px solid #ffdd57;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+}
