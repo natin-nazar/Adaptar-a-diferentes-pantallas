@@ -13,7 +13,7 @@ body {
   margin: 0;
 }
 
-.header {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,40 +21,40 @@ body {
 }
 
 @media screen and (min-width: 800px) {
-  .foto-alumno {
+  img {
     width: 20%;
   }
 
-  .nombre-alumno {
+  h1 {
     width: 60%;
     text-align: center;
     font-size: 2em;
   }
 
-  .icono-alumno {
+  svg {
     width: 20%;
   }
 }
 
 @media screen and (max-width: 799px) {
-  .header {
+  header {
     flex-direction: column;
     align-items: center;
   }
 
-  .foto-alumno {
+  img {
     width: 50%;
     margin-bottom: 10px;
   }
 
-  .nombre-alumno {
+  h1 {
     width: 100%;
     text-align: center;
     font-size: 1.5em;
     margin-bottom: 10px;
   }
 
-  .icono-alumno {
+  svg {
     width: 100%;
     border: 2px solid #ffdd57;
     background-color: #f0f0f0;
