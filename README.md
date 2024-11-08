@@ -1,0 +1,2 @@
+# Adaptar a diferentes pantallas
+ 
