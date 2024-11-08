@@ -22,28 +22,3 @@ Este proyecto adapta una página personal para que se visualice de manera óptim
 
 3. **Optimización para Dispositivos Móviles:**
    - Se utiliza la etiqueta `<meta name="viewport" content="width=device-width, initial-scale=1.0">` para hacer que el diseño se adapte automáticamente al ancho del dispositivo y que el zoom inicial sea 1:1, permitiendo una visualización óptima en dispositivos móviles.
-
-## Estructura del Código
-
-A continuación, se muestra cómo se han aplicado las configuraciones de viewport y media queries:
-
-```html
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Página Personal Adaptable</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header>
-      <img src="ruta/a/imagen.jpg" alt="Imagen personal" class="imagen" />
-      <h1>Nombre del Alumno</h1>
-      <svg class="icono-svg">
-        <!-- SVG content here -->
-      </svg>
-    </header>
-  </body>
-</html>
-```
